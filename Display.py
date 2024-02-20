@@ -1,3 +1,4 @@
+#import cv for image processing
 import cv2 as cv
 #https://www.geeksforgeeks.org/python-opencv-cv2-imshow-method/ example 1
 def display_image(image):

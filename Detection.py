@@ -58,7 +58,10 @@ def detect_lines(image):
                 slope = (y2 - y1) / (x2 - x1)
             # Add the slope to the list of slopes
             slopes.append(slope)
-
+            
+        # https://www.w3resource.com/python-exercises/python-basic-exercise-73.php example 1    
+        # https://datascience.stackexchange.com/questions/77256/how-to-find-slope-of-curve-at-certain-points example 2
+        # https://docs.opencv.org/3.4/dc/da5/tutorial_py_drawing_functions.html example 1
         # Loop over each pair of slopes
         for i in range(len(slopes)):
             for j in range(len(slopes)):

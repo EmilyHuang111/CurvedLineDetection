@@ -4,7 +4,7 @@ import Display  # Import the Display code
 
 try:  # Start a try block to catch any potential exceptions
     #https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html example 1 for all the code below
-    # Define a function called DisplayVid
+    # Define a function called display_video
     def display_video():
         # Open the default camera (index 0)
         cap = cv.VideoCapture(0)
